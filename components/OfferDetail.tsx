@@ -6,8 +6,10 @@ export const OfferDetail: FunctionComponent<{ offer: Offer }> = ({ offer }) => {
   return (
     <div className="OfferDetails">
       <h1>{offer.title}</h1>
+      <img src={"../static/Maletin.png"} />
       <p>{offer.company_name}</p>
       <p>{offer.location}</p>
+      <img src={"../static/Maletin.png"} />
       <p>{offer.remote ? "Remote" : "Onsite"}</p>
       <div dangerouslySetInnerHTML={{
   __html: offer.description

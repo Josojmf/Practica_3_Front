@@ -10,9 +10,8 @@ export const OfferComp: FunctionComponent<{ offer: Offer, onClick: () => void }>
   return (
 
       <div className="Offer"
-      onClick={() => onClick()}
-      >
-        <h1 className="OfferTitle">{offer.title}</h1>
+      onClick={() => onClick()}>
+        <h1>{offer.title}</h1>
         <p>{offer.company_name}</p>
         <p>{offer.location}</p>
         <p>{offer.remote ? "Remote" : "Onsite"}</p>

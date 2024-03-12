@@ -1,128 +1,53 @@
-
-.Search{
-  border: 1px solid #000000;
-  background-color: rgb(196, 253, 234);
-  height: 200px;
-  width: 50%;
-  top : 5%;
-  position: fixed;
-  left: 25%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 50px;
-.SearchCar{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 50px;
+.Offer {
+  background-color: #f4f4f4;
+  font-color: #ffffff;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.SearchButton{
-border-radius: 5px;
-background-color: #4CAF50;
-border: none;
-color: white;
-text-align: center;
-}
-}
-.SearchBar{
-  margin-top: 20px;
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-}
-.CarComp{
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  width: 20%;
-  height: fit-content;
-  top :45%;
-  left: 40%;
-  flex-direction: row;
-  border: #000000;
-  background-color: rgb(196, 253, 234);
-}
-.CarName{
-  position: absolute;
-  top: 0%;
-  left: 35%;
-  font-family: Arial, Helvetica, sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.CarData{
-  top: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 50px;
-}
-.NavMenu{
-  position: absolute;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: large;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 50px;
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  top: 2%;
-  left: 2%;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  
-}
-.Error{
-  position: absolute;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: large;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 50px;
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  top: 100%;
-  left: 2%;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  background-color: #FF0000;
-  color: white;
-}
-.Add{
-  position: absolute;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: large;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 50px;
-  width: 50%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  top: 50%;
-  left: 25%;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  background-color: #4CAF50;
-  color: white;
+.Offer:hover {
+  background-color: #c6d2fc;
 }
 
+.Offers {
+ 
+  width: 45%;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.OffersTitle {
+  background-color: blue;
+  font-size: 30px;
+  color: white;
+ width: auto;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.OfferDetails {
+  overflow: auto;
+  max-height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.OffersList {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  overflow: auto;
+  max-height: 100vh;
+
+}
+.OfferTitle {
+  font-size: 20px;
+  color: blue;
+  margin: 0;
+}

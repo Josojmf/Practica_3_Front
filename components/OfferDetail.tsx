@@ -7,10 +7,10 @@ export const OfferDetail: FunctionComponent<{ offer: Offer }> = ({ offer }) => {
       <h1>{offer.title}</h1>
 
       <div className="Company">
-        <img className="Maletin" src={"office.png"} alt={offer.company_name} />
-
-        <p>  {offer.company_name}</p>
+        <img className="Office" src={"office.png"} alt={offer.company_name} />
+        <p>{offer.company_name}</p>
       </div>
+
       <div className="Location">
         <img className="Maletin" src={"/Maletin.png"} />
         <p>{offer.location}</p>

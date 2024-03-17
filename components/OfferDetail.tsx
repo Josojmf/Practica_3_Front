@@ -7,7 +7,7 @@ export const OfferDetail: FunctionComponent<{ offer: Offer }> = ({ offer }) => {
       <h1>{offer.title}</h1>
 
       <div className="Company">
-        <img className="Office" src={"office.png"} alt={offer.company_name} />
+        <img className="Office" src={"/Office.png"} alt={offer.company_name} />
         <p>{offer.company_name}</p>
       </div>
 
@@ -16,15 +16,24 @@ export const OfferDetail: FunctionComponent<{ offer: Offer }> = ({ offer }) => {
         <p>{offer.location}</p>
       </div>
 
-      <div>
+      <div className="Onsite">
+        <img className="People" src={"/people.png"} />
         <p>{offer.remote ? "& Remote" : " Onsite"}</p>
+      </div>
+      <div className="Buttons">
+      <div className="SolicitarButton">
+      <a className="TextLinkSolicitar"href={offer.url}>Solicitar</a>
+      </div>
+      <div className="GuardarButton"> 
+      <a className="TextLink"href={offer.url}>Guardar</a>
+      </div>
       </div>
       <div
         dangerouslySetInnerHTML={{
           __html: offer.description,
         }}
       />
-      <a href={offer.url}>Apply</a>
+      
     </div>
   );
 };

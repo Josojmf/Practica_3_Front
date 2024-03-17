@@ -5,6 +5,7 @@ const layout =(props:PageProps) => {
     return (
         <html>
             <body>
+                <div>Header</div>
                 <Component />
             </body>
         </html>
